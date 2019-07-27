@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About elfi
 ==========
 
@@ -20,8 +16,15 @@ inference (LFI) such as Approximate Bayesian Computation (ABC).
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/elfi-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/elfi-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6382&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/elfi-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================

@@ -1,5 +1,5 @@
 {% set name = "elfi" %}
-{% set version = "0.7.4" %}
+{% set version = "0.7.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/elfi-dev/{{ name|lower }}/archive/v{{ version }}.tar.gz
-  sha256: b930870a3e904bef88709ecd65545a2b030962a554324b21dc6aeb5ae9473a99
+  sha256: 21e922f961c8ccf8cb14a7397e2e755fbf7e89c0d4fcf4383d40084e1edc08b8
 
 build:
-  number: 2
+  number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
@@ -40,7 +40,7 @@ about:
   license: BSD-3
   license_family: BSD
   license_file: LICENSE
-  summary: 'ELFI - Engine for Likelihood-Free Inference'
+  summary: ELFI - Engine for Likelihood-Free Inference
   description: |
     ELFI is a statistical software package written in Python for likelihood-free
     inference (LFI) such as Approximate Bayesian Computation (ABC).

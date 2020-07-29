@@ -37,7 +37,7 @@ test:
 
 about:
   home: http://www.elfi.ai/
-  license: BSD-3
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: ELFI - Engine for Likelihood-Free Inference

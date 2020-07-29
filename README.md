@@ -5,7 +5,7 @@ Home: http://www.elfi.ai/
 
 Package license: BSD-3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: ELFI - Engine for Likelihood-Free Inference
 

@@ -3,11 +3,13 @@ About elfi
 
 Home: http://www.elfi.ai/
 
-Package license: BSD-3
+Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/elfi-feedstock/blob/master/LICENSE.txt)
 
 Summary: ELFI - Engine for Likelihood-Free Inference
+
+Development: https://github.com/elfi-dev/elfi
 
 ELFI is a statistical software package written in Python for likelihood-free
 inference (LFI) such as Approximate Bayesian Computation (ABC).

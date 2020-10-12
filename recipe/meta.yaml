@@ -25,11 +25,12 @@ requirements:
     - scipy >=0.19
     - matplotlib-base
     - GPy
-    - networkX >=1.11,<2.0
+    - networkX >=2.0
     - ipyparallel
     - toolz
     - scikit-learn
     - graphviz
+    - dask[distributed] >=2.0, <3.0
 
 test:
   imports:

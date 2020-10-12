@@ -1,5 +1,5 @@
 {% set name = "elfi" %}
-{% set version = "0.7.6" %}
+{% set version = "0.7.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/elfi-dev/{{ name|lower }}/archive/v{{ version }}.tar.gz
-  sha256: 21e922f961c8ccf8cb14a7397e2e755fbf7e89c0d4fcf4383d40084e1edc08b8
+  sha256: 155399b2ad7980f0b1ccfa6529a15d866241f80d83cd4db9e3b3f81f167d054e
 
 build:
   number: 0
@@ -25,11 +25,12 @@ requirements:
     - scipy >=0.19
     - matplotlib-base
     - GPy
-    - networkX >=1.11,<2.0
+    - networkX >=2.0
     - ipyparallel
     - toolz
     - scikit-learn
     - graphviz
+    - dask[distributed] >=2.0, <3.0
 
 test:
   imports:

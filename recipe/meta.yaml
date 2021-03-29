@@ -1,5 +1,5 @@
 {% set name = "elfi" %}
-{% set version = "0.7.7" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/elfi-dev/{{ name|lower }}/archive/v{{ version }}.tar.gz
-  sha256: 155399b2ad7980f0b1ccfa6529a15d866241f80d83cd4db9e3b3f81f167d054e
+  sha256: 66ce87c39a9ba13fc9e860d9aaf9ef80f4031310519266673a7e60ea705b30b4
 
 build:
   number: 0

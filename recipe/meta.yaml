@@ -30,7 +30,8 @@ requirements:
     - toolz
     - scikit-learn
     - graphviz
-    - dask[distributed] >=2.0, <3.0
+    - dask[distributed]
+    - numdifftools
 
 test:
   imports:

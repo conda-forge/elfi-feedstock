@@ -30,7 +30,7 @@ requirements:
     - toolz
     - scikit-learn
     - graphviz
-    - dask[distributed]
+    - dask[distributed] >=2.30.0
     - numdifftools
 
 test:
